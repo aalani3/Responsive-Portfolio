@@ -228,3 +228,48 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width:980px){
+  .container {
+    width: 100%;
+  }
+  #par1{
+    width: 75%
+  }
+  aside{
+    width: 25%;
+  }
+
+
+
+}
+@media screen and (max-width:768px){
+  .container {
+    width: 100%;
+  }
+  #par1{
+    width: 75%
+  }
+  aside{
+    width: 25%;
+  }
+}
+@media screen and (max-width:640px){
+  .container {
+    width: 100%;
+  }
+  #par1{
+    width: 75%
+  }
+  aside{
+    width: 25%;
+  }
+  #header1{
+    position: static;
+  }
+
+
+
+}
+
+
